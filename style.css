@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
@@ -9,6 +10,11 @@ body {
     min-height: 100vh;
 }
 
+section {
+    padding: 16px 0;
+    display: block;
+}
+
 h2 {
     font-size: 24px;
     display: block;
@@ -17,17 +23,6 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-}
-li {
-    display: list-item;
 }
 
 a {
@@ -42,7 +37,6 @@ nav {
     align-items: center;
     padding: 16px 0;
 }
-
 .nav-items {
     display: flex;
     list-style-type: none;
@@ -53,6 +47,16 @@ nav {
 }
 .nav-item {
     margin: 8px;
+}
+nav ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+}
+nav li {
+    display: list-item;
 }
 
 /* Footer Styles */
@@ -74,3 +78,18 @@ form {
 form br {
     display: none;
 }
+
+/* Home Page Styles */
+/* About Me Styles */
+.about-me-container {
+    display: flex;
+}
+.about-me-text-container {
+    margin-right: 16px;
+}
+.profile-picture {
+    width: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+/* Projects Styles */
