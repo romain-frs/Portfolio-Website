@@ -1,10 +1,12 @@
 body {
     font-family: "Open Sans", sans-serif;
+    font-size: 16px;
     padding: 0 16px;
     max-width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 h2 {
@@ -51,4 +53,24 @@ nav {
 }
 .nav-item {
     margin: 8px;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: auto;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+/* Contact Page Styles */
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+}
+form br {
+    display: none;
 }
